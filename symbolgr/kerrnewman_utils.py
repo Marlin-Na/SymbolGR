@@ -1,7 +1,8 @@
 import astropy.units as u
 import numpy as np
 
-from einsteinpy import constant, utils
+from symbolgr import constant
+import symbolgr as utils # FIXME
 
 nonzero_christoffels_list = [
     (0, 0, 1),

@@ -1,7 +1,7 @@
 import astropy.units as u
 import numpy as np
 
-from einsteinpy import constant
+from symbolgr import constant
 
 
 def schwarzschild_radius(mass, c=constant.c, G=constant.G):

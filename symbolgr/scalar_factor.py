@@ -1,7 +1,7 @@
 import astropy.units as u
 import numpy as np
 
-from einsteinpy import constant
+from symbolgr import constant
 
 
 @u.quantity_input(t=u.s)

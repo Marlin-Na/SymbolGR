@@ -6,6 +6,13 @@ INSTALL_REQUIRES = [
     "numpy"
 ]
 
+EXTRAS_REQUIRE = {
+    "dev": [
+        "sympy>=1.1",
+        "pytest"
+    ]
+}
+
 setup(
     name = "symbolgr",
     version = "0.0.1",
@@ -13,6 +20,7 @@ setup(
     author = "Jialin Ma",
     author_email = "marlin-@gmx.cn",
     packages = ["symbolgr"],
-    install_requires = INSTALL_REQUIRES
+    install_requires = INSTALL_REQUIRES,
+    extras_require = EXTRAS_REQUIRE
 )
 
